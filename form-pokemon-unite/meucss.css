@@ -1,0 +1,108 @@
+/* zerar css padrão  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.red {
+    color: rgb(214, 18, 18);
+}
+
+/* header da pagina */
+header {
+    background: linear-gradient(90deg, #534F8E, purple);
+    color: #fff;
+    height: 10vh;
+    font-size: 1.3rem;
+
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+/* corpo da pagina */
+main {
+/*     https://pop.proddigital.com.br/wp-content/uploads/sites/8/2023/01/pokemon.jpg */
+    background: url(./media/unite-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+main section .container-formulario {
+    background: linear-gradient(hsl(243.8,28.5%,43.3%), rgb(96, 25, 129));
+    height: 70vh;
+    width: 532px;
+    border-radius: 20px;
+
+    padding: 20px;
+}
+
+main section .container-formulario form {
+    display: flex;
+    flex-direction: column;
+    color:rgb(217, 217, 217)
+}
+
+label {
+    margin: 0.5rem 0;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inline label {
+    margin-right: 1em;
+}
+
+.finputs {
+    margin: 2px 0 0 0;
+    width: 100%;
+    min-height: 1.8em;
+    background-color: rgb(179, 179, 179);
+}
+
+main section .container-formulario form input[type="submit"] {
+
+    background-color: #494848;
+    color: #fff;
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    display: block;
+    width: 60%;
+    height: 2.3em;
+    margin: 1.5em auto;
+    cursor: pointer;
+}
+
+main section .container-formulario form input[type="radio"] {
+    margin-top: 0.5em;
+}
+
+/* rodape da pagina */
+footer {
+    background: linear-gradient(90deg, purple, #534F8E);
+    color: #fff;
+    height: 10vh;
+    font-size: 1.3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding-right: 40px;
+}
+
+img {
+    width: 1.5em;
+}

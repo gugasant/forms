@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./media/favicon.ico" type="image/x-icon">
+    <title>Cadastro na equipe</title>
+
+    <!-- link para o css geral -->
+    <link rel="stylesheet" href="/meucss.css">
+
+
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <img src="./media/pokeball1.png" alt="pokeball icon">
+        <p>
+            Pokémon Team
+        </p>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- seção formulario -->
+        <section>
+
+            <!-- container formulario -->
+            <div class="container-formulario">
+
+                <form>
+    
+                    <!-- campo usuario -->
+                    <label for="nickname">Nickname<span class="red">*</span></label>
+                    <input type="text" class="finputs" id="nickname" name="nickname" required>
+                    <label for="zap">Whatsapp<span class="red">*</span></label>
+                    <input type="tel" id="zap" name="zap" pattern="[0-9]{11}" class="finputs" required>
+                    <label for="identifica">Rank atual<span class="red">*</span></label>
+                    <select name="identifica" id="identifica" required>
+                        <option value="">Escolha uma opção</option>
+                        <option value="1">Mestre</option>
+                        <option value="2">Ultra</option>
+                        <option value="3">Veterano</option>
+                        <option value="4">Expert</option>
+                    </select>
+                    <label for="identifica">Tipo combate<span class="red">*</span></label>
+                    <select name="identifica" id="identifica" required>
+                        <option value="">Escolha uma opção</option>
+                        <option value="1">All-Rounder</option>
+                        <option value="2">Attacker</option>
+                        <option value="3">Defender</option>
+                        <option value="4">Speedster</option>
+                        <option value="5">Supporter</option>
+                    </select>
+                    <label>Lane:</label>
+                    <div class="inline">
+                    <label for="lane">Top lane
+                    <input type="radio" name="lane"></label>
+                    <label for="lane">Mid lane
+                        <input type="radio" name="lane"></label>
+                        <label for="lane">Bottom lane
+                            <input type="radio" name="lane"></label>
+                    </div>
+                        <input type="submit" value="Enviar">
+                </form>
+
+            </div>
+
+
+
+        </section>
+
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>
+            <a href="https://github.com/gugasant"><img src="./media/github.png" alt="github icon"></a>
+        </p>
+    </footer>
+    
+</body>
+</html>
