@@ -1,0 +1,20 @@
+{
+  "name": "forms",
+  "version": "1.0.0",
+  "description": "Repository for studies and practices of forms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gugasant/forms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gugasant/forms/issues"
+  },
+  "homepage": "https://github.com/gugasant/forms#readme"
+}
